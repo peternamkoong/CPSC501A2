@@ -2,5 +2,63 @@
 Filename: script5.txt
 Running Test: ClassD
 Recursive: true
-Class: ClassD
 ======================================================
+******* CLASS INFORMATION: ClassD *******
+Class: ClassD
+Super Class: Object
+
+******* ClassD INTERFACE SECTION *******
+******* ClassD INTERFACE SECTION FINISHED ******* 
+
+
+******* ClassD CONSTRUCTOR SECTION *******
+Constructor: public ClassD ()
+Constructor: public ClassD (int )
+******* ClassD CONSTRUCTOR SECTION FINISHED ******* 
+
+
+******* ClassD METHOD SECTION *******
+Method: public String toString()Throws 
+Method: public int getVal3()Throws 
+******* ClassD METHOD SECTION FINISHED ******* 
+
+
+******* ClassD FIELD SECTION *******
+Field: private ClassA val = ClassA
+Field: private static ClassA val2 = null
+Field: private int val3 = 34
+Field: private ClassA[] vallarray = [null, null, null, null, null, null, null, null, null, null]
+******* ClassD FIELD SECTION FINISHED ******* 
+
+	******* CLASS INFORMATION: Object *******
+	Class: Object
+	Super Class: DOES NOT EXIST
+
+	******* Object INTERFACE SECTION *******
+	******* Object INTERFACE SECTION FINISHED ******* 
+
+
+	******* Object CONSTRUCTOR SECTION *******
+	Constructor: public java.lang.Object ()
+	******* Object CONSTRUCTOR SECTION FINISHED ******* 
+
+
+	******* Object METHOD SECTION *******
+	Method: protected void finalize()Throws Throwable 
+	Method: public final void wait()Throws InterruptedException 
+	Method: public final void wait(long int )Throws InterruptedException 
+	Method: public final native void wait(long )Throws InterruptedException 
+	Method: public boolean equals(Object )Throws 
+	Method: public String toString()Throws 
+	Method: public native int hashCode()Throws 
+	Method: public final native Class getClass()Throws 
+	Method: protected native Object clone()Throws CloneNotSupportedException 
+	Method: public final native void notify()Throws 
+	Method: public final native void notifyAll()Throws 
+	Method: private static native void registerNatives()Throws 
+	******* Object METHOD SECTION FINISHED ******* 
+
+
+	******* Object FIELD SECTION *******
+	******* Object FIELD SECTION FINISHED ******* 
+

@@ -29,8 +29,8 @@ public class Driver {
             System.out.println("Filename: " + filename);
             System.out.println("Running Test: " + testObj);
             System.out.println("Recursive: " + recursive);
-            new Inspector().inspect(testObj, recursive);
             System.out.println("======================================================");
+            new Inspector().inspect(testObj, recursive);
             ps.flush();
             fos.flush();
             ps.close();

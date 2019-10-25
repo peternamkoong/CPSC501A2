@@ -2,5 +2,121 @@
 Filename: script3.txt
 Running Test: ClassB
 Recursive: true
-Class: ClassB
 ======================================================
+******* CLASS INFORMATION: ClassB *******
+Class: ClassB
+Super Class: ClassC
+
+******* ClassB INTERFACE SECTION *******
+Interface: interface java.lang.Runnable
+******* ClassB INTERFACE SECTION FINISHED ******* 
+
+
+******* ClassB CONSTRUCTOR SECTION *******
+Constructor: public ClassB ()
+******* ClassB CONSTRUCTOR SECTION FINISHED ******* 
+
+
+******* ClassB METHOD SECTION *******
+Method: public void run()Throws 
+Method: public String toString()Throws 
+Method: public void func3(int )Throws 
+******* ClassB METHOD SECTION FINISHED ******* 
+
+
+******* ClassB FIELD SECTION *******
+Field: private ClassA val = ClassA
+Field: private ClassA val2 = ClassA
+Field: private ClassA val3 = null
+******* ClassB FIELD SECTION FINISHED ******* 
+
+	******* CLASS INFORMATION: ClassC *******
+	Class: ClassC
+	Super Class: ClassD
+
+	******* ClassC INTERFACE SECTION *******
+	Interface: interface InterfaceA
+	******* ClassC INTERFACE SECTION FINISHED ******* 
+
+
+	******* ClassC CONSTRUCTOR SECTION *******
+	Constructor: public ClassC ()
+	Constructor: public ClassC (int int )
+	******* ClassC CONSTRUCTOR SECTION FINISHED ******* 
+
+
+	******* ClassC METHOD SECTION *******
+	Method: public void run()Throws 
+	Method: public String toString()Throws 
+	Method: public abstract void func3(int )Throws 
+	Method: public void func0(int boolean )Throws Exception 
+	Method: public int func2(String )Throws Exception ArithmeticException IllegalMonitorStateException 
+	Method: public void func1(int double boolean String )Throws Exception 
+	******* ClassC METHOD SECTION FINISHED ******* 
+
+
+	******* ClassC FIELD SECTION *******
+	Field: private ClassA val2 = ClassA
+	Field: private ClassA val3 = ClassA
+	Field: private ClassA val4 = ClassA
+	******* ClassC FIELD SECTION FINISHED ******* 
+
+		******* CLASS INFORMATION: ClassD *******
+		Class: ClassD
+		Super Class: Object
+
+		******* ClassD INTERFACE SECTION *******
+		******* ClassD INTERFACE SECTION FINISHED ******* 
+
+
+		******* ClassD CONSTRUCTOR SECTION *******
+		Constructor: public ClassD ()
+		Constructor: public ClassD (int )
+		******* ClassD CONSTRUCTOR SECTION FINISHED ******* 
+
+
+		******* ClassD METHOD SECTION *******
+		Method: public String toString()Throws 
+		Method: public int getVal3()Throws 
+		******* ClassD METHOD SECTION FINISHED ******* 
+
+
+		******* ClassD FIELD SECTION *******
+		Field: private ClassA val = ClassA
+		Field: private static ClassA val2 = null
+		Field: private int val3 = 34
+		Field: private ClassA[] vallarray = [null, null, null, null, null, null, null, null, null, null]
+		******* ClassD FIELD SECTION FINISHED ******* 
+
+			******* CLASS INFORMATION: Object *******
+			Class: Object
+			Super Class: DOES NOT EXIST
+
+			******* Object INTERFACE SECTION *******
+			******* Object INTERFACE SECTION FINISHED ******* 
+
+
+			******* Object CONSTRUCTOR SECTION *******
+			Constructor: public java.lang.Object ()
+			******* Object CONSTRUCTOR SECTION FINISHED ******* 
+
+
+			******* Object METHOD SECTION *******
+			Method: protected void finalize()Throws Throwable 
+			Method: public final void wait()Throws InterruptedException 
+			Method: public final void wait(long int )Throws InterruptedException 
+			Method: public final native void wait(long )Throws InterruptedException 
+			Method: public boolean equals(Object )Throws 
+			Method: public String toString()Throws 
+			Method: public native int hashCode()Throws 
+			Method: public final native Class getClass()Throws 
+			Method: protected native Object clone()Throws CloneNotSupportedException 
+			Method: public final native void notify()Throws 
+			Method: public final native void notifyAll()Throws 
+			Method: private static native void registerNatives()Throws 
+			******* Object METHOD SECTION FINISHED ******* 
+
+
+			******* Object FIELD SECTION *******
+			******* Object FIELD SECTION FINISHED ******* 
+

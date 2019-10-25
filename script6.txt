@@ -1,6 +1,6 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@1b6d3586
+Running Test: [LClassB;@7f31245a
 Recursive: true
-Class: [LClassB;
 ======================================================
+Component Type: ClassB

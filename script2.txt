@@ -2,5 +2,67 @@
 Filename: script2.txt
 Running Test: ClassA
 Recursive: true
-Class: ClassA
 ======================================================
+******* CLASS INFORMATION: ClassA *******
+Class: ClassA
+Super Class: Object
+
+******* ClassA INTERFACE SECTION *******
+Interface: interface java.io.Serializable
+Interface: interface java.lang.Runnable
+******* ClassA INTERFACE SECTION FINISHED ******* 
+
+
+******* ClassA CONSTRUCTOR SECTION *******
+Constructor: public ClassA ()
+Constructor: public ClassA (int )
+******* ClassA CONSTRUCTOR SECTION FINISHED ******* 
+
+
+******* ClassA METHOD SECTION *******
+Method: public void run()Throws 
+Method: public String toString()Throws 
+Method: public void setVal(int )Throws Exception 
+Method: private void printSomething()Throws 
+Method: public int getVal()Throws 
+******* ClassA METHOD SECTION FINISHED ******* 
+
+
+******* ClassA FIELD SECTION *******
+Field: private int val = 12
+Field: private double val2 = 0.2
+Field: private boolean val3 = true
+******* ClassA FIELD SECTION FINISHED ******* 
+
+	******* CLASS INFORMATION: Object *******
+	Class: Object
+	Super Class: DOES NOT EXIST
+
+	******* Object INTERFACE SECTION *******
+	******* Object INTERFACE SECTION FINISHED ******* 
+
+
+	******* Object CONSTRUCTOR SECTION *******
+	Constructor: public java.lang.Object ()
+	******* Object CONSTRUCTOR SECTION FINISHED ******* 
+
+
+	******* Object METHOD SECTION *******
+	Method: protected void finalize()Throws Throwable 
+	Method: public final void wait()Throws InterruptedException 
+	Method: public final void wait(long int )Throws InterruptedException 
+	Method: public final native void wait(long )Throws InterruptedException 
+	Method: public boolean equals(Object )Throws 
+	Method: public String toString()Throws 
+	Method: public native int hashCode()Throws 
+	Method: public final native Class getClass()Throws 
+	Method: protected native Object clone()Throws CloneNotSupportedException 
+	Method: public final native void notify()Throws 
+	Method: public final native void notifyAll()Throws 
+	Method: private static native void registerNatives()Throws 
+	******* Object METHOD SECTION FINISHED ******* 
+
+
+	******* Object FIELD SECTION *******
+	******* Object FIELD SECTION FINISHED ******* 
+
