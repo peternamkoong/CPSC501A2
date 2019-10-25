@@ -2,4 +2,5 @@
 Filename: script4.txt
 Running Test: ClassD
 Recursive: true
+Class: ClassD
 ======================================================

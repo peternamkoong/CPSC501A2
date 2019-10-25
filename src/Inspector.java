@@ -7,6 +7,7 @@ public class Inspector {
     }
 
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
+        System.out.println("Class: "+ c.getName());
     }
 
 }
