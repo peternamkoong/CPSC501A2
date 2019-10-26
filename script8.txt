@@ -3,155 +3,308 @@ Filename: script8.txt
 Running Test: Test String
 Recursive: true
 ======================================================
-******* CLASS INFORMATION: String *******
-Class: String
-Super Class: Object
 
-******* String INTERFACE SECTION *******
+======================================================
+INFORMATION SECTION: Class: java.lang.String
+======================================================
+
+Class: java.lang.String
+Super Class: java.lang.Object
+
+======================================================
+INTERFACE SECTION: Class: java.lang.String
+======================================================
+
 Interface: interface java.io.Serializable
 Interface: interface java.lang.Comparable
 Interface: interface java.lang.CharSequence
-******* String INTERFACE SECTION FINISHED ******* 
+
+======================================================
+INTERFACE SECTION COMPLETE: java.lang.String
+======================================================
 
 
-******* String CONSTRUCTOR SECTION *******
-Constructor: public java.lang.String ([B int int )
-Constructor: public java.lang.String ([B java.nio.charset.Charset )
-Constructor: public java.lang.String ([B java.lang.String )
-Constructor: public java.lang.String ([B int int java.nio.charset.Charset )
-Constructor: public java.lang.String ([B int int java.lang.String )
-Constructor:  java.lang.String ([C boolean )
-Constructor: public java.lang.String (java.lang.StringBuilder )
-Constructor: public java.lang.String (java.lang.StringBuffer )
-Constructor: public java.lang.String ([B )
-Constructor: public java.lang.String ([I int int )
-Constructor: public java.lang.String ()
-Constructor: public java.lang.String ([C )
-Constructor: public java.lang.String (java.lang.String )
-Constructor: public java.lang.String ([C int int )
-Constructor: public java.lang.String ([B int )
-Constructor: public java.lang.String ([B int int int )
-******* String CONSTRUCTOR SECTION FINISHED ******* 
+======================================================
+CONSTRUCTOR SECTION: Class: java.lang.String
+======================================================
+
+Constructor: public java.lang.String ( [B int int ) 
+Constructor: public java.lang.String ( [B java.nio.charset.Charset ) 
+Constructor: public java.lang.String ( [B java.lang.String ) 
+Constructor: public java.lang.String ( [B int int java.nio.charset.Charset ) 
+Constructor: public java.lang.String ( [B int int java.lang.String ) 
+Constructor:  java.lang.String ( [C boolean ) 
+Constructor: public java.lang.String ( java.lang.StringBuilder ) 
+Constructor: public java.lang.String ( java.lang.StringBuffer ) 
+Constructor: public java.lang.String ( [B ) 
+Constructor: public java.lang.String ( [I int int ) 
+Constructor: public java.lang.String ( ) 
+Constructor: public java.lang.String ( [C ) 
+Constructor: public java.lang.String ( java.lang.String ) 
+Constructor: public java.lang.String ( [C int int ) 
+Constructor: public java.lang.String ( [B int ) 
+Constructor: public java.lang.String ( [B int int int ) 
+
+======================================================
+CONSTRUCTOR SECTION COMPLETE: java.lang.String
+======================================================
 
 
-******* String METHOD SECTION *******
-Method: public boolean equals(Object )Throws 
-Method: public String toString()Throws 
-Method: public int hashCode()Throws 
-Method: public int compareTo(String )Throws 
-Method: public volatile int compareTo(Object )Throws 
-Method: public int indexOf(String int )Throws 
-Method: public int indexOf(String )Throws 
-Method: public int indexOf(int int )Throws 
-Method: public int indexOf(int )Throws 
-Method: static int indexOf(char[] int int char[] int int int )Throws 
-Method: static int indexOf(char[] int int String int )Throws 
-Method: public static String valueOf(int )Throws 
-Method: public static String valueOf(long )Throws 
-Method: public static String valueOf(float )Throws 
-Method: public static String valueOf(boolean )Throws 
-Method: public static String valueOf(char[] )Throws 
-Method: public static String valueOf(char[] int int )Throws 
-Method: public static String valueOf(Object )Throws 
-Method: public static String valueOf(char )Throws 
-Method: public static String valueOf(double )Throws 
-Method: public char charAt(int )Throws 
-Method: private static void checkBounds(byte[] int int )Throws 
-Method: public int codePointAt(int )Throws 
-Method: public int codePointBefore(int )Throws 
-Method: public int codePointCount(int int )Throws 
-Method: public int compareToIgnoreCase(String )Throws 
-Method: public String concat(String )Throws 
-Method: public boolean contains(CharSequence )Throws 
-Method: public boolean contentEquals(CharSequence )Throws 
-Method: public boolean contentEquals(StringBuffer )Throws 
-Method: public static String copyValueOf(char[] )Throws 
-Method: public static String copyValueOf(char[] int int )Throws 
-Method: public boolean endsWith(String )Throws 
-Method: public boolean equalsIgnoreCase(String )Throws 
-Method: public static transient String format(Locale String Object[] )Throws 
-Method: public static transient String format(String Object[] )Throws 
-Method: public void getBytes(int int byte[] int )Throws 
-Method: public byte[] getBytes(Charset )Throws 
-Method: public byte[] getBytes(String )Throws UnsupportedEncodingException 
-Method: public byte[] getBytes()Throws 
-Method: public void getChars(int int char[] int )Throws 
-Method:  void getChars(char[] int )Throws 
-Method: private int indexOfSupplementary(int int )Throws 
-Method: public native String intern()Throws 
-Method: public boolean isEmpty()Throws 
-Method: public static transient String join(CharSequence CharSequence[] )Throws 
-Method: public static String join(CharSequence Iterable )Throws 
-Method: public int lastIndexOf(int )Throws 
-Method: public int lastIndexOf(String )Throws 
-Method: static int lastIndexOf(char[] int int String int )Throws 
-Method: public int lastIndexOf(String int )Throws 
-Method: public int lastIndexOf(int int )Throws 
-Method: static int lastIndexOf(char[] int int char[] int int int )Throws 
-Method: private int lastIndexOfSupplementary(int int )Throws 
-Method: public int length()Throws 
-Method: public boolean matches(String )Throws 
-Method: private boolean nonSyncContentEquals(AbstractStringBuilder )Throws 
-Method: public int offsetByCodePoints(int int )Throws 
-Method: public boolean regionMatches(int String int int )Throws 
-Method: public boolean regionMatches(boolean int String int int )Throws 
-Method: public String replace(char char )Throws 
-Method: public String replace(CharSequence CharSequence )Throws 
-Method: public String replaceAll(String String )Throws 
-Method: public String replaceFirst(String String )Throws 
-Method: public String[] split(String )Throws 
-Method: public String[] split(String int )Throws 
-Method: public boolean startsWith(String int )Throws 
-Method: public boolean startsWith(String )Throws 
-Method: public CharSequence subSequence(int int )Throws 
-Method: public String substring(int )Throws 
-Method: public String substring(int int )Throws 
-Method: public char[] toCharArray()Throws 
-Method: public String toLowerCase(Locale )Throws 
-Method: public String toLowerCase()Throws 
-Method: public String toUpperCase()Throws 
-Method: public String toUpperCase(Locale )Throws 
-Method: public String trim()Throws 
-******* String METHOD SECTION FINISHED ******* 
+======================================================
+METHOD SECTION: Class: java.lang.String
+======================================================
+
+Method: public boolean equals( java.lang.Object )
+Method: public java.lang.String toString( )
+Method: public int hashCode( )
+Method: public int compareTo( java.lang.String )
+Method: public volatile int compareTo( java.lang.Object )
+Method: public int indexOf( java.lang.String int )
+Method: public int indexOf( java.lang.String )
+Method: public int indexOf( int int )
+Method: public int indexOf( int )
+Method: static int indexOf( [C int int [C int int int )
+Method: static int indexOf( [C int int java.lang.String int )
+Method: public static java.lang.String valueOf( int )
+Method: public static java.lang.String valueOf( long )
+Method: public static java.lang.String valueOf( float )
+Method: public static java.lang.String valueOf( boolean )
+Method: public static java.lang.String valueOf( [C )
+Method: public static java.lang.String valueOf( [C int int )
+Method: public static java.lang.String valueOf( java.lang.Object )
+Method: public static java.lang.String valueOf( char )
+Method: public static java.lang.String valueOf( double )
+Method: public char charAt( int )
+Method: private static void checkBounds( [B int int )
+Method: public int codePointAt( int )
+Method: public int codePointBefore( int )
+Method: public int codePointCount( int int )
+Method: public int compareToIgnoreCase( java.lang.String )
+Method: public java.lang.String concat( java.lang.String )
+Method: public boolean contains( java.lang.CharSequence )
+Method: public boolean contentEquals( java.lang.CharSequence )
+Method: public boolean contentEquals( java.lang.StringBuffer )
+Method: public static java.lang.String copyValueOf( [C )
+Method: public static java.lang.String copyValueOf( [C int int )
+Method: public boolean endsWith( java.lang.String )
+Method: public boolean equalsIgnoreCase( java.lang.String )
+Method: public static transient java.lang.String format( java.util.Locale java.lang.String [Ljava.lang.Object; )
+Method: public static transient java.lang.String format( java.lang.String [Ljava.lang.Object; )
+Method: public void getBytes( int int [B int )
+Method: public [B getBytes( java.nio.charset.Charset )
+Method: public [B getBytes( java.lang.String ) Throws java.io.UnsupportedEncodingException 
+Method: public [B getBytes( )
+Method: public void getChars( int int [C int )
+Method:  void getChars( [C int )
+Method: private int indexOfSupplementary( int int )
+Method: public native java.lang.String intern( )
+Method: public boolean isEmpty( )
+Method: public static transient java.lang.String join( java.lang.CharSequence [Ljava.lang.CharSequence; )
+Method: public static java.lang.String join( java.lang.CharSequence java.lang.Iterable )
+Method: public int lastIndexOf( int )
+Method: public int lastIndexOf( java.lang.String )
+Method: static int lastIndexOf( [C int int java.lang.String int )
+Method: public int lastIndexOf( java.lang.String int )
+Method: public int lastIndexOf( int int )
+Method: static int lastIndexOf( [C int int [C int int int )
+Method: private int lastIndexOfSupplementary( int int )
+Method: public int length( )
+Method: public boolean matches( java.lang.String )
+Method: private boolean nonSyncContentEquals( java.lang.AbstractStringBuilder )
+Method: public int offsetByCodePoints( int int )
+Method: public boolean regionMatches( int java.lang.String int int )
+Method: public boolean regionMatches( boolean int java.lang.String int int )
+Method: public java.lang.String replace( char char )
+Method: public java.lang.String replace( java.lang.CharSequence java.lang.CharSequence )
+Method: public java.lang.String replaceAll( java.lang.String java.lang.String )
+Method: public java.lang.String replaceFirst( java.lang.String java.lang.String )
+Method: public [Ljava.lang.String; split( java.lang.String )
+Method: public [Ljava.lang.String; split( java.lang.String int )
+Method: public boolean startsWith( java.lang.String int )
+Method: public boolean startsWith( java.lang.String )
+Method: public java.lang.CharSequence subSequence( int int )
+Method: public java.lang.String substring( int )
+Method: public java.lang.String substring( int int )
+Method: public [C toCharArray( )
+Method: public java.lang.String toLowerCase( java.util.Locale )
+Method: public java.lang.String toLowerCase( )
+Method: public java.lang.String toUpperCase( )
+Method: public java.lang.String toUpperCase( java.util.Locale )
+Method: public java.lang.String trim( )
+
+======================================================
+METHOD SECTION COMPLETE: java.lang.String
+======================================================
 
 
-******* String FIELD SECTION *******
-Field: private final char[] value = [T, e, s, t,  , S, t, r, i, n, g]
+======================================================
+FIELD SECTION: Class: java.lang.String
+======================================================
+
+Field: private final char[] value = []
 Field: private int hash = 0
 Field: private static final long serialVersionUID = -6849794470754667710
 Field: private static final ObjectStreamField[] serialPersistentFields = []
 Field: public static final Comparator CASE_INSENSITIVE_ORDER = java.lang.String$CaseInsensitiveComparator@45ee12a7
-******* String FIELD SECTION FINISHED ******* 
 
-	******* CLASS INFORMATION: Object *******
-	Class: Object
+======================================================
+RECURSIVE SECTION: Class: java.util.Comparator
+======================================================
+
+
+	======================================================
+	INFORMATION SECTION: Class: java.util.Comparator
+	======================================================
+
+	Class: java.util.Comparator
 	Super Class: DOES NOT EXIST
 
-	******* Object INTERFACE SECTION *******
-	******* Object INTERFACE SECTION FINISHED ******* 
+	======================================================
+	INTERFACE SECTION: Class: java.util.Comparator
+	======================================================
 
 
-	******* Object CONSTRUCTOR SECTION *******
-	Constructor: public java.lang.Object ()
-	******* Object CONSTRUCTOR SECTION FINISHED ******* 
+	======================================================
+	INTERFACE SECTION COMPLETE: java.util.Comparator
+	======================================================
 
 
-	******* Object METHOD SECTION *******
-	Method: protected void finalize()Throws Throwable 
-	Method: public final void wait()Throws InterruptedException 
-	Method: public final void wait(long int )Throws InterruptedException 
-	Method: public final native void wait(long )Throws InterruptedException 
-	Method: public boolean equals(Object )Throws 
-	Method: public String toString()Throws 
-	Method: public native int hashCode()Throws 
-	Method: public final native Class getClass()Throws 
-	Method: protected native Object clone()Throws CloneNotSupportedException 
-	Method: public final native void notify()Throws 
-	Method: public final native void notifyAll()Throws 
-	Method: private static native void registerNatives()Throws 
-	******* Object METHOD SECTION FINISHED ******* 
+	======================================================
+	CONSTRUCTOR SECTION: Class: java.util.Comparator
+	======================================================
 
 
-	******* Object FIELD SECTION *******
-	******* Object FIELD SECTION FINISHED ******* 
+	======================================================
+	CONSTRUCTOR SECTION COMPLETE: java.util.Comparator
+	======================================================
+
+
+	======================================================
+	METHOD SECTION: Class: java.util.Comparator
+	======================================================
+
+	Method: public abstract boolean equals( java.lang.Object )
+	Method: public abstract int compare( java.lang.Object java.lang.Object )
+	Method: private static java.lang.Object $deserializeLambda$( java.lang.invoke.SerializedLambda )
+	Method: public static java.util.Comparator comparing( java.util.function.Function java.util.Comparator )
+	Method: public static java.util.Comparator comparing( java.util.function.Function )
+	Method: public static java.util.Comparator comparingDouble( java.util.function.ToDoubleFunction )
+	Method: public static java.util.Comparator comparingInt( java.util.function.ToIntFunction )
+	Method: public static java.util.Comparator comparingLong( java.util.function.ToLongFunction )
+	Method: private static int lambda$comparing$77a9974f$1( java.util.function.Function java.lang.Object java.lang.Object )
+	Method: private static int lambda$comparing$ea9a8b3a$1( java.util.Comparator java.util.function.Function java.lang.Object java.lang.Object )
+	Method: private static int lambda$comparingDouble$8dcf42ea$1( java.util.function.ToDoubleFunction java.lang.Object java.lang.Object )
+	Method: private static int lambda$comparingInt$7b0bb60$1( java.util.function.ToIntFunction java.lang.Object java.lang.Object )
+	Method: private static int lambda$comparingLong$6043328a$1( java.util.function.ToLongFunction java.lang.Object java.lang.Object )
+	Method: private int lambda$thenComparing$36697e65$1( java.util.Comparator java.lang.Object java.lang.Object )
+	Method: public static java.util.Comparator naturalOrder( )
+	Method: public static java.util.Comparator nullsFirst( java.util.Comparator )
+	Method: public static java.util.Comparator nullsLast( java.util.Comparator )
+	Method: public static java.util.Comparator reverseOrder( )
+	Method: public java.util.Comparator reversed( )
+	Method: public java.util.Comparator thenComparing( java.util.function.Function )
+	Method: public java.util.Comparator thenComparing( java.util.Comparator )
+	Method: public java.util.Comparator thenComparing( java.util.function.Function java.util.Comparator )
+	Method: public java.util.Comparator thenComparingDouble( java.util.function.ToDoubleFunction )
+	Method: public java.util.Comparator thenComparingInt( java.util.function.ToIntFunction )
+	Method: public java.util.Comparator thenComparingLong( java.util.function.ToLongFunction )
+
+	======================================================
+	METHOD SECTION COMPLETE: java.util.Comparator
+	======================================================
+
+
+	======================================================
+	FIELD SECTION: Class: java.util.Comparator
+	======================================================
+
+
+	======================================================
+	FIELD SECTION COMPLETE: java.util.Comparator
+	======================================================
+
+
+	======================================================
+	INFORMATION SECTION COMPLETE: java.util.Comparator
+	======================================================
+
+
+======================================================
+RECURSIVE SECTION COMPLETE: java.util.Comparator
+======================================================
+
+
+======================================================
+FIELD SECTION COMPLETE: java.lang.String
+======================================================
+
+
+	======================================================
+	INFORMATION SECTION: Class: java.lang.Object
+	======================================================
+
+	Class: java.lang.Object
+	Super Class: DOES NOT EXIST
+
+	======================================================
+	INTERFACE SECTION: Class: java.lang.Object
+	======================================================
+
+
+	======================================================
+	INTERFACE SECTION COMPLETE: java.lang.Object
+	======================================================
+
+
+	======================================================
+	CONSTRUCTOR SECTION: Class: java.lang.Object
+	======================================================
+
+	Constructor: public java.lang.Object ( ) 
+
+	======================================================
+	CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+	======================================================
+
+
+	======================================================
+	METHOD SECTION: Class: java.lang.Object
+	======================================================
+
+	Method: protected void finalize( ) Throws java.lang.Throwable 
+	Method: public final void wait( ) Throws java.lang.InterruptedException 
+	Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+	Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+	Method: public boolean equals( java.lang.Object )
+	Method: public java.lang.String toString( )
+	Method: public native int hashCode( )
+	Method: public final native java.lang.Class getClass( )
+	Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+	Method: public final native void notify( )
+	Method: public final native void notifyAll( )
+	Method: private static native void registerNatives( )
+
+	======================================================
+	METHOD SECTION COMPLETE: java.lang.Object
+	======================================================
+
+
+	======================================================
+	FIELD SECTION: Class: java.lang.Object
+	======================================================
+
+
+	======================================================
+	FIELD SECTION COMPLETE: java.lang.Object
+	======================================================
+
+
+	======================================================
+	INFORMATION SECTION COMPLETE: java.lang.Object
+	======================================================
+
+
+======================================================
+INFORMATION SECTION COMPLETE: java.lang.String
+======================================================
 

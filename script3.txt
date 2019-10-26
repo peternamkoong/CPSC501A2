@@ -3,120 +3,1086 @@ Filename: script3.txt
 Running Test: ClassB
 Recursive: true
 ======================================================
-******* CLASS INFORMATION: ClassB *******
+
+======================================================
+INFORMATION SECTION: Class: ClassB
+======================================================
+
 Class: ClassB
 Super Class: ClassC
 
-******* ClassB INTERFACE SECTION *******
+======================================================
+INTERFACE SECTION: Class: ClassB
+======================================================
+
 Interface: interface java.lang.Runnable
-******* ClassB INTERFACE SECTION FINISHED ******* 
+
+======================================================
+INTERFACE SECTION COMPLETE: ClassB
+======================================================
 
 
-******* ClassB CONSTRUCTOR SECTION *******
-Constructor: public ClassB ()
-******* ClassB CONSTRUCTOR SECTION FINISHED ******* 
+======================================================
+CONSTRUCTOR SECTION: Class: ClassB
+======================================================
+
+Constructor: public ClassB ( ) 
+
+======================================================
+CONSTRUCTOR SECTION COMPLETE: ClassB
+======================================================
 
 
-******* ClassB METHOD SECTION *******
-Method: public void run()Throws 
-Method: public String toString()Throws 
-Method: public void func3(int )Throws 
-******* ClassB METHOD SECTION FINISHED ******* 
+======================================================
+METHOD SECTION: Class: ClassB
+======================================================
+
+Method: public void run( )
+Method: public java.lang.String toString( )
+Method: public void func3( int )
+
+======================================================
+METHOD SECTION COMPLETE: ClassB
+======================================================
 
 
-******* ClassB FIELD SECTION *******
+======================================================
+FIELD SECTION: Class: ClassB
+======================================================
+
 Field: private ClassA val = ClassA
-Field: private ClassA val2 = ClassA
-Field: private ClassA val3 = null
-******* ClassB FIELD SECTION FINISHED ******* 
 
-	******* CLASS INFORMATION: ClassC *******
+======================================================
+RECURSIVE SECTION: Class: ClassA
+======================================================
+
+
+	======================================================
+	INFORMATION SECTION: Class: ClassA
+	======================================================
+
+	Class: ClassA
+	Super Class: java.lang.Object
+
+	======================================================
+	INTERFACE SECTION: Class: ClassA
+	======================================================
+
+	Interface: interface java.io.Serializable
+	Interface: interface java.lang.Runnable
+
+	======================================================
+	INTERFACE SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	CONSTRUCTOR SECTION: Class: ClassA
+	======================================================
+
+	Constructor: public ClassA ( ) 
+	Constructor: public ClassA ( int ) 
+
+	======================================================
+	CONSTRUCTOR SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	METHOD SECTION: Class: ClassA
+	======================================================
+
+	Method: public void run( )
+	Method: public java.lang.String toString( )
+	Method: public void setVal( int ) Throws java.lang.Exception 
+	Method: public int getVal( )
+	Method: private void printSomething( )
+
+	======================================================
+	METHOD SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	FIELD SECTION: Class: ClassA
+	======================================================
+
+	Field: private int val = 3
+	Field: private double val2 = 0.2
+	Field: private boolean val3 = true
+
+	======================================================
+	FIELD SECTION COMPLETE: ClassA
+	======================================================
+
+
+		======================================================
+		INFORMATION SECTION: Class: java.lang.Object
+		======================================================
+
+		Class: java.lang.Object
+		Super Class: DOES NOT EXIST
+
+		======================================================
+		INTERFACE SECTION: Class: java.lang.Object
+		======================================================
+
+
+		======================================================
+		INTERFACE SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		CONSTRUCTOR SECTION: Class: java.lang.Object
+		======================================================
+
+		Constructor: public java.lang.Object ( ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		METHOD SECTION: Class: java.lang.Object
+		======================================================
+
+		Method: protected void finalize( ) Throws java.lang.Throwable 
+		Method: public final void wait( ) Throws java.lang.InterruptedException 
+		Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+		Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+		Method: public boolean equals( java.lang.Object )
+		Method: public java.lang.String toString( )
+		Method: public native int hashCode( )
+		Method: public final native java.lang.Class getClass( )
+		Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+		Method: public final native void notify( )
+		Method: public final native void notifyAll( )
+		Method: private static native void registerNatives( )
+
+		======================================================
+		METHOD SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: java.lang.Object
+		======================================================
+
+
+		======================================================
+		FIELD SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+	======================================================
+	INFORMATION SECTION COMPLETE: ClassA
+	======================================================
+
+
+======================================================
+RECURSIVE SECTION COMPLETE: ClassA
+======================================================
+
+Field: private ClassA val2 = ClassA
+
+======================================================
+RECURSIVE SECTION: Class: ClassA
+======================================================
+
+
+	======================================================
+	INFORMATION SECTION: Class: ClassA
+	======================================================
+
+	Class: ClassA
+	Super Class: java.lang.Object
+
+	======================================================
+	INTERFACE SECTION: Class: ClassA
+	======================================================
+
+	Interface: interface java.io.Serializable
+	Interface: interface java.lang.Runnable
+
+	======================================================
+	INTERFACE SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	CONSTRUCTOR SECTION: Class: ClassA
+	======================================================
+
+	Constructor: public ClassA ( ) 
+	Constructor: public ClassA ( int ) 
+
+	======================================================
+	CONSTRUCTOR SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	METHOD SECTION: Class: ClassA
+	======================================================
+
+	Method: public void run( )
+	Method: public java.lang.String toString( )
+	Method: public void setVal( int ) Throws java.lang.Exception 
+	Method: public int getVal( )
+	Method: private void printSomething( )
+
+	======================================================
+	METHOD SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	FIELD SECTION: Class: ClassA
+	======================================================
+
+	Field: private int val = 12
+	Field: private double val2 = 0.2
+	Field: private boolean val3 = true
+
+	======================================================
+	FIELD SECTION COMPLETE: ClassA
+	======================================================
+
+
+		======================================================
+		INFORMATION SECTION: Class: java.lang.Object
+		======================================================
+
+		Class: java.lang.Object
+		Super Class: DOES NOT EXIST
+
+		======================================================
+		INTERFACE SECTION: Class: java.lang.Object
+		======================================================
+
+
+		======================================================
+		INTERFACE SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		CONSTRUCTOR SECTION: Class: java.lang.Object
+		======================================================
+
+		Constructor: public java.lang.Object ( ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		METHOD SECTION: Class: java.lang.Object
+		======================================================
+
+		Method: protected void finalize( ) Throws java.lang.Throwable 
+		Method: public final void wait( ) Throws java.lang.InterruptedException 
+		Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+		Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+		Method: public boolean equals( java.lang.Object )
+		Method: public java.lang.String toString( )
+		Method: public native int hashCode( )
+		Method: public final native java.lang.Class getClass( )
+		Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+		Method: public final native void notify( )
+		Method: public final native void notifyAll( )
+		Method: private static native void registerNatives( )
+
+		======================================================
+		METHOD SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: java.lang.Object
+		======================================================
+
+
+		======================================================
+		FIELD SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: java.lang.Object
+		======================================================
+
+
+	======================================================
+	INFORMATION SECTION COMPLETE: ClassA
+	======================================================
+
+
+======================================================
+RECURSIVE SECTION COMPLETE: ClassA
+======================================================
+
+Field: private ClassA val3 = null
+
+======================================================
+FIELD SECTION COMPLETE: ClassB
+======================================================
+
+
+	======================================================
+	INFORMATION SECTION: Class: ClassC
+	======================================================
+
 	Class: ClassC
 	Super Class: ClassD
 
-	******* ClassC INTERFACE SECTION *******
+	======================================================
+	INTERFACE SECTION: Class: ClassC
+	======================================================
+
 	Interface: interface InterfaceA
-	******* ClassC INTERFACE SECTION FINISHED ******* 
+
+	======================================================
+	INTERFACE SECTION COMPLETE: ClassC
+	======================================================
 
 
-	******* ClassC CONSTRUCTOR SECTION *******
-	Constructor: public ClassC ()
-	Constructor: public ClassC (int int )
-	******* ClassC CONSTRUCTOR SECTION FINISHED ******* 
+	======================================================
+	CONSTRUCTOR SECTION: Class: ClassC
+	======================================================
+
+	Constructor: public ClassC ( ) 
+	Constructor: public ClassC ( int int ) 
+
+	======================================================
+	CONSTRUCTOR SECTION COMPLETE: ClassC
+	======================================================
 
 
-	******* ClassC METHOD SECTION *******
-	Method: public void run()Throws 
-	Method: public String toString()Throws 
-	Method: public abstract void func3(int )Throws 
-	Method: public void func0(int boolean )Throws Exception 
-	Method: public int func2(String )Throws Exception ArithmeticException IllegalMonitorStateException 
-	Method: public void func1(int double boolean String )Throws Exception 
-	******* ClassC METHOD SECTION FINISHED ******* 
+	======================================================
+	METHOD SECTION: Class: ClassC
+	======================================================
+
+	Method: public void run( )
+	Method: public java.lang.String toString( )
+	Method: public int func2( java.lang.String ) Throws java.lang.Exception  Throws java.lang.ArithmeticException  Throws java.lang.IllegalMonitorStateException 
+	Method: public void func0( int boolean ) Throws java.lang.Exception 
+	Method: public void func1( int double boolean java.lang.String ) Throws java.lang.Exception 
+	Method: public abstract void func3( int )
+
+	======================================================
+	METHOD SECTION COMPLETE: ClassC
+	======================================================
 
 
-	******* ClassC FIELD SECTION *******
+	======================================================
+	FIELD SECTION: Class: ClassC
+	======================================================
+
 	Field: private ClassA val2 = ClassA
-	Field: private ClassA val3 = ClassA
-	Field: private ClassA val4 = ClassA
-	******* ClassC FIELD SECTION FINISHED ******* 
 
-		******* CLASS INFORMATION: ClassD *******
-		Class: ClassD
-		Super Class: Object
-
-		******* ClassD INTERFACE SECTION *******
-		******* ClassD INTERFACE SECTION FINISHED ******* 
+	======================================================
+	RECURSIVE SECTION: Class: ClassA
+	======================================================
 
 
-		******* ClassD CONSTRUCTOR SECTION *******
-		Constructor: public ClassD ()
-		Constructor: public ClassD (int )
-		******* ClassD CONSTRUCTOR SECTION FINISHED ******* 
+		======================================================
+		INFORMATION SECTION: Class: ClassA
+		======================================================
+
+		Class: ClassA
+		Super Class: java.lang.Object
+
+		======================================================
+		INTERFACE SECTION: Class: ClassA
+		======================================================
+
+		Interface: interface java.io.Serializable
+		Interface: interface java.lang.Runnable
+
+		======================================================
+		INTERFACE SECTION COMPLETE: ClassA
+		======================================================
 
 
-		******* ClassD METHOD SECTION *******
-		Method: public String toString()Throws 
-		Method: public int getVal3()Throws 
-		******* ClassD METHOD SECTION FINISHED ******* 
+		======================================================
+		CONSTRUCTOR SECTION: Class: ClassA
+		======================================================
+
+		Constructor: public ClassA ( ) 
+		Constructor: public ClassA ( int ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: ClassA
+		======================================================
 
 
-		******* ClassD FIELD SECTION *******
-		Field: private ClassA val = ClassA
-		Field: private static ClassA val2 = null
-		Field: private int val3 = 34
-		Field: private ClassA[] vallarray = [null, null, null, null, null, null, null, null, null, null]
-		******* ClassD FIELD SECTION FINISHED ******* 
+		======================================================
+		METHOD SECTION: Class: ClassA
+		======================================================
 
-			******* CLASS INFORMATION: Object *******
-			Class: Object
+		Method: public void run( )
+		Method: public java.lang.String toString( )
+		Method: public void setVal( int ) Throws java.lang.Exception 
+		Method: public int getVal( )
+		Method: private void printSomething( )
+
+		======================================================
+		METHOD SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: ClassA
+		======================================================
+
+		Field: private int val = 100
+		Field: private double val2 = 0.2
+		Field: private boolean val3 = true
+
+		======================================================
+		FIELD SECTION COMPLETE: ClassA
+		======================================================
+
+
+			======================================================
+			INFORMATION SECTION: Class: java.lang.Object
+			======================================================
+
+			Class: java.lang.Object
 			Super Class: DOES NOT EXIST
 
-			******* Object INTERFACE SECTION *******
-			******* Object INTERFACE SECTION FINISHED ******* 
+			======================================================
+			INTERFACE SECTION: Class: java.lang.Object
+			======================================================
 
 
-			******* Object CONSTRUCTOR SECTION *******
-			Constructor: public java.lang.Object ()
-			******* Object CONSTRUCTOR SECTION FINISHED ******* 
+			======================================================
+			INTERFACE SECTION COMPLETE: java.lang.Object
+			======================================================
 
 
-			******* Object METHOD SECTION *******
-			Method: protected void finalize()Throws Throwable 
-			Method: public final void wait()Throws InterruptedException 
-			Method: public final void wait(long int )Throws InterruptedException 
-			Method: public final native void wait(long )Throws InterruptedException 
-			Method: public boolean equals(Object )Throws 
-			Method: public String toString()Throws 
-			Method: public native int hashCode()Throws 
-			Method: public final native Class getClass()Throws 
-			Method: protected native Object clone()Throws CloneNotSupportedException 
-			Method: public final native void notify()Throws 
-			Method: public final native void notifyAll()Throws 
-			Method: private static native void registerNatives()Throws 
-			******* Object METHOD SECTION FINISHED ******* 
+			======================================================
+			CONSTRUCTOR SECTION: Class: java.lang.Object
+			======================================================
+
+			Constructor: public java.lang.Object ( ) 
+
+			======================================================
+			CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+			======================================================
 
 
-			******* Object FIELD SECTION *******
-			******* Object FIELD SECTION FINISHED ******* 
+			======================================================
+			METHOD SECTION: Class: java.lang.Object
+			======================================================
+
+			Method: protected void finalize( ) Throws java.lang.Throwable 
+			Method: public final void wait( ) Throws java.lang.InterruptedException 
+			Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+			Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+			Method: public boolean equals( java.lang.Object )
+			Method: public java.lang.String toString( )
+			Method: public native int hashCode( )
+			Method: public final native java.lang.Class getClass( )
+			Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+			Method: public final native void notify( )
+			Method: public final native void notifyAll( )
+			Method: private static native void registerNatives( )
+
+			======================================================
+			METHOD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INFORMATION SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: ClassA
+		======================================================
+
+
+	======================================================
+	RECURSIVE SECTION COMPLETE: ClassA
+	======================================================
+
+	Field: private ClassA val3 = ClassA
+
+	======================================================
+	RECURSIVE SECTION: Class: ClassA
+	======================================================
+
+
+		======================================================
+		INFORMATION SECTION: Class: ClassA
+		======================================================
+
+		Class: ClassA
+		Super Class: java.lang.Object
+
+		======================================================
+		INTERFACE SECTION: Class: ClassA
+		======================================================
+
+		Interface: interface java.io.Serializable
+		Interface: interface java.lang.Runnable
+
+		======================================================
+		INTERFACE SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		CONSTRUCTOR SECTION: Class: ClassA
+		======================================================
+
+		Constructor: public ClassA ( ) 
+		Constructor: public ClassA ( int ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		METHOD SECTION: Class: ClassA
+		======================================================
+
+		Method: public void run( )
+		Method: public java.lang.String toString( )
+		Method: public void setVal( int ) Throws java.lang.Exception 
+		Method: public int getVal( )
+		Method: private void printSomething( )
+
+		======================================================
+		METHOD SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: ClassA
+		======================================================
+
+		Field: private int val = 2
+		Field: private double val2 = 0.2
+		Field: private boolean val3 = true
+
+		======================================================
+		FIELD SECTION COMPLETE: ClassA
+		======================================================
+
+
+			======================================================
+			INFORMATION SECTION: Class: java.lang.Object
+			======================================================
+
+			Class: java.lang.Object
+			Super Class: DOES NOT EXIST
+
+			======================================================
+			INTERFACE SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INTERFACE SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			CONSTRUCTOR SECTION: Class: java.lang.Object
+			======================================================
+
+			Constructor: public java.lang.Object ( ) 
+
+			======================================================
+			CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			METHOD SECTION: Class: java.lang.Object
+			======================================================
+
+			Method: protected void finalize( ) Throws java.lang.Throwable 
+			Method: public final void wait( ) Throws java.lang.InterruptedException 
+			Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+			Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+			Method: public boolean equals( java.lang.Object )
+			Method: public java.lang.String toString( )
+			Method: public native int hashCode( )
+			Method: public final native java.lang.Class getClass( )
+			Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+			Method: public final native void notify( )
+			Method: public final native void notifyAll( )
+			Method: private static native void registerNatives( )
+
+			======================================================
+			METHOD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INFORMATION SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: ClassA
+		======================================================
+
+
+	======================================================
+	RECURSIVE SECTION COMPLETE: ClassA
+	======================================================
+
+	Field: private ClassA val4 = ClassA
+
+	======================================================
+	RECURSIVE SECTION: Class: ClassA
+	======================================================
+
+
+		======================================================
+		INFORMATION SECTION: Class: ClassA
+		======================================================
+
+		Class: ClassA
+		Super Class: java.lang.Object
+
+		======================================================
+		INTERFACE SECTION: Class: ClassA
+		======================================================
+
+		Interface: interface java.io.Serializable
+		Interface: interface java.lang.Runnable
+
+		======================================================
+		INTERFACE SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		CONSTRUCTOR SECTION: Class: ClassA
+		======================================================
+
+		Constructor: public ClassA ( ) 
+		Constructor: public ClassA ( int ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		METHOD SECTION: Class: ClassA
+		======================================================
+
+		Method: public void run( )
+		Method: public java.lang.String toString( )
+		Method: public void setVal( int ) Throws java.lang.Exception 
+		Method: public int getVal( )
+		Method: private void printSomething( )
+
+		======================================================
+		METHOD SECTION COMPLETE: ClassA
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: ClassA
+		======================================================
+
+		Field: private int val = 3
+		Field: private double val2 = 0.2
+		Field: private boolean val3 = true
+
+		======================================================
+		FIELD SECTION COMPLETE: ClassA
+		======================================================
+
+
+			======================================================
+			INFORMATION SECTION: Class: java.lang.Object
+			======================================================
+
+			Class: java.lang.Object
+			Super Class: DOES NOT EXIST
+
+			======================================================
+			INTERFACE SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INTERFACE SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			CONSTRUCTOR SECTION: Class: java.lang.Object
+			======================================================
+
+			Constructor: public java.lang.Object ( ) 
+
+			======================================================
+			CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			METHOD SECTION: Class: java.lang.Object
+			======================================================
+
+			Method: protected void finalize( ) Throws java.lang.Throwable 
+			Method: public final void wait( ) Throws java.lang.InterruptedException 
+			Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+			Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+			Method: public boolean equals( java.lang.Object )
+			Method: public java.lang.String toString( )
+			Method: public native int hashCode( )
+			Method: public final native java.lang.Class getClass( )
+			Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+			Method: public final native void notify( )
+			Method: public final native void notifyAll( )
+			Method: private static native void registerNatives( )
+
+			======================================================
+			METHOD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INFORMATION SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: ClassA
+		======================================================
+
+
+	======================================================
+	RECURSIVE SECTION COMPLETE: ClassA
+	======================================================
+
+
+	======================================================
+	FIELD SECTION COMPLETE: ClassC
+	======================================================
+
+
+		======================================================
+		INFORMATION SECTION: Class: ClassD
+		======================================================
+
+		Class: ClassD
+		Super Class: java.lang.Object
+
+		======================================================
+		INTERFACE SECTION: Class: ClassD
+		======================================================
+
+
+		======================================================
+		INTERFACE SECTION COMPLETE: ClassD
+		======================================================
+
+
+		======================================================
+		CONSTRUCTOR SECTION: Class: ClassD
+		======================================================
+
+		Constructor: public ClassD ( ) 
+		Constructor: public ClassD ( int ) 
+
+		======================================================
+		CONSTRUCTOR SECTION COMPLETE: ClassD
+		======================================================
+
+
+		======================================================
+		METHOD SECTION: Class: ClassD
+		======================================================
+
+		Method: public java.lang.String toString( )
+		Method: public int getVal3( )
+
+		======================================================
+		METHOD SECTION COMPLETE: ClassD
+		======================================================
+
+
+		======================================================
+		FIELD SECTION: Class: ClassD
+		======================================================
+
+		Field: private ClassA val = ClassA
+
+		======================================================
+		RECURSIVE SECTION: Class: ClassA
+		======================================================
+
+
+			======================================================
+			INFORMATION SECTION: Class: ClassA
+			======================================================
+
+			Class: ClassA
+			Super Class: java.lang.Object
+
+			======================================================
+			INTERFACE SECTION: Class: ClassA
+			======================================================
+
+			Interface: interface java.io.Serializable
+			Interface: interface java.lang.Runnable
+
+			======================================================
+			INTERFACE SECTION COMPLETE: ClassA
+			======================================================
+
+
+			======================================================
+			CONSTRUCTOR SECTION: Class: ClassA
+			======================================================
+
+			Constructor: public ClassA ( ) 
+			Constructor: public ClassA ( int ) 
+
+			======================================================
+			CONSTRUCTOR SECTION COMPLETE: ClassA
+			======================================================
+
+
+			======================================================
+			METHOD SECTION: Class: ClassA
+			======================================================
+
+			Method: public void run( )
+			Method: public java.lang.String toString( )
+			Method: public void setVal( int ) Throws java.lang.Exception 
+			Method: public int getVal( )
+			Method: private void printSomething( )
+
+			======================================================
+			METHOD SECTION COMPLETE: ClassA
+			======================================================
+
+
+			======================================================
+			FIELD SECTION: Class: ClassA
+			======================================================
+
+			Field: private int val = 17
+			Field: private double val2 = 0.2
+			Field: private boolean val3 = true
+
+			======================================================
+			FIELD SECTION COMPLETE: ClassA
+			======================================================
+
+
+				======================================================
+				INFORMATION SECTION: Class: java.lang.Object
+				======================================================
+
+				Class: java.lang.Object
+				Super Class: DOES NOT EXIST
+
+				======================================================
+				INTERFACE SECTION: Class: java.lang.Object
+				======================================================
+
+
+				======================================================
+				INTERFACE SECTION COMPLETE: java.lang.Object
+				======================================================
+
+
+				======================================================
+				CONSTRUCTOR SECTION: Class: java.lang.Object
+				======================================================
+
+				Constructor: public java.lang.Object ( ) 
+
+				======================================================
+				CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+				======================================================
+
+
+				======================================================
+				METHOD SECTION: Class: java.lang.Object
+				======================================================
+
+				Method: protected void finalize( ) Throws java.lang.Throwable 
+				Method: public final void wait( ) Throws java.lang.InterruptedException 
+				Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+				Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+				Method: public boolean equals( java.lang.Object )
+				Method: public java.lang.String toString( )
+				Method: public native int hashCode( )
+				Method: public final native java.lang.Class getClass( )
+				Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+				Method: public final native void notify( )
+				Method: public final native void notifyAll( )
+				Method: private static native void registerNatives( )
+
+				======================================================
+				METHOD SECTION COMPLETE: java.lang.Object
+				======================================================
+
+
+				======================================================
+				FIELD SECTION: Class: java.lang.Object
+				======================================================
+
+
+				======================================================
+				FIELD SECTION COMPLETE: java.lang.Object
+				======================================================
+
+
+				======================================================
+				INFORMATION SECTION COMPLETE: java.lang.Object
+				======================================================
+
+
+			======================================================
+			INFORMATION SECTION COMPLETE: ClassA
+			======================================================
+
+
+		======================================================
+		RECURSIVE SECTION COMPLETE: ClassA
+		======================================================
+
+		Field: private static ClassA val2 = null
+		Field: private int val3 = 34
+		Field: private ClassA[] vallarray = [ null  null  null  null  null  null  null  null  null  null ]
+
+		======================================================
+		FIELD SECTION COMPLETE: ClassD
+		======================================================
+
+
+			======================================================
+			INFORMATION SECTION: Class: java.lang.Object
+			======================================================
+
+			Class: java.lang.Object
+			Super Class: DOES NOT EXIST
+
+			======================================================
+			INTERFACE SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INTERFACE SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			CONSTRUCTOR SECTION: Class: java.lang.Object
+			======================================================
+
+			Constructor: public java.lang.Object ( ) 
+
+			======================================================
+			CONSTRUCTOR SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			METHOD SECTION: Class: java.lang.Object
+			======================================================
+
+			Method: protected void finalize( ) Throws java.lang.Throwable 
+			Method: public final void wait( ) Throws java.lang.InterruptedException 
+			Method: public final void wait( long int ) Throws java.lang.InterruptedException 
+			Method: public final native void wait( long ) Throws java.lang.InterruptedException 
+			Method: public boolean equals( java.lang.Object )
+			Method: public java.lang.String toString( )
+			Method: public native int hashCode( )
+			Method: public final native java.lang.Class getClass( )
+			Method: protected native java.lang.Object clone( ) Throws java.lang.CloneNotSupportedException 
+			Method: public final native void notify( )
+			Method: public final native void notifyAll( )
+			Method: private static native void registerNatives( )
+
+			======================================================
+			METHOD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION: Class: java.lang.Object
+			======================================================
+
+
+			======================================================
+			FIELD SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+			======================================================
+			INFORMATION SECTION COMPLETE: java.lang.Object
+			======================================================
+
+
+		======================================================
+		INFORMATION SECTION COMPLETE: ClassD
+		======================================================
+
+
+	======================================================
+	INFORMATION SECTION COMPLETE: ClassC
+	======================================================
+
+
+======================================================
+INFORMATION SECTION COMPLETE: ClassB
+======================================================
 

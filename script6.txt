@@ -4,3 +4,4 @@ Running Test: [LClassB;@7f31245a
 Recursive: true
 ======================================================
 Component Type: ClassB
+[ null  null  null  null  null  null  null  null  null  null  null  null ]
