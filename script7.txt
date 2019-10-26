@@ -4,4 +4,4 @@ Running Test: [[LClassB;@6d6f6e28
 Recursive: false
 ======================================================
 Component Type: [LClassB;
-[]
+[ [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB; [LClassB;]
